@@ -19,7 +19,7 @@ This project implements an image classification model using **MobileNetV2** and 
 Image-Classifier-MobileNetV2/
 │
 ├── notebooks/
-│   └── image_classifier_mobilenetv2.ipynb   # Main training notebook
+│   └── Project_1.ipynb   # Main training notebook
 │
 ├── saved_models/
 │   └── animal_classifier_model.h5           # Saved model
@@ -84,8 +84,8 @@ Animals/
 ---
 
 ## 🙋‍♂️ Author
-Heshan Ranasinghe
-Electronic and Telecommunication Engineering Undergraduate
+Heshan Ranasinghe\
+Electronic and Telecommunication Engineering Undergraduate\
 GitHub: [@DPHeshanRanasinghe](https://github.com/DPHeshanRanasinghe)
 
 
