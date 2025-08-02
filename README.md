@@ -14,6 +14,7 @@ This project implements an image classification model using **MobileNetV2** and 
 
 ---
 
+```
 ## 📂 Project Structure
 Image-Classifier-MobileNetV2/
 │
@@ -28,7 +29,7 @@ Image-Classifier-MobileNetV2/
 │
 ├── README.md                                # Project overview
 └── requirements.txt                         # Python dependencies
-
+```
 
 ---
 
@@ -82,7 +83,7 @@ Animals/
 
 ---
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 Heshan Ranasinghe
 Electronic and Telecommunication Engineering Undergraduate
 GitHub: [@DPHeshanRanasinghe](https://github.com/DPHeshanRanasinghe)
@@ -90,7 +91,7 @@ GitHub: [@DPHeshanRanasinghe](https://github.com/DPHeshanRanasinghe)
 
 ---
 
-📜 License
+## 📜 License
 This project is open source under the MIT License.
 
 
