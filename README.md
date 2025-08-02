@@ -17,17 +17,17 @@ This project implements an image classification model using **MobileNetV2** and 
 ```
 ## 📂 Project Structure
 Image-Classifier-MobileNetV2/
-├── datasets/
-│   └── [Animals]/  # Organized folders per class (e.g., cats, dogs, snakes)
+├── datasets
+│   └── [Animals]  # Organized folders per class (e.g., cats, dogs, snakes)
 │
-├── notebooks/
+├── notebooks
 │   └── Project_1.ipynb   # Main training notebook
 │
-├── saved_models/
-│   └── animal_classifier_model.h5           # Saved model
-│
-├── README.md                                # Project overview
-└── requirements.txt                         # Python dependencies
+├── README.md         # Project overview
+|   └── requirements.txt            # Python dependencies
+|
+├── saved_models
+    └── animal_classifier_model.h5           # Saved model
 ```
 
 ---
@@ -46,10 +46,10 @@ Image-Classifier-MobileNetV2/
 
 The dataset is organized in folders for each class. Example structure:
 ````
-Animals/
- ├── cats/
- ├── dogs/
- └── snakes/
+Animals
+ ├── cats
+ ├── dogs
+ └── snakes
 ````
 
  ---
