@@ -14,8 +14,8 @@ This project implements an image classification model using **MobileNetV2** and 
 
 ---
 
-```
 ## 📂 Project Structure
+```
 Image-Classifier-MobileNetV2/
 ├── datasets
 │   └── [Animals]  # Organized folders per class (e.g., cats, dogs, snakes)
