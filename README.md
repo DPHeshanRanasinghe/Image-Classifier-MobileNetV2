@@ -242,14 +242,14 @@ predictions = model.predict(batch)
 **Heshan Ranasinghe**  
 Electronic and Telecommunication Engineering Undergraduate  
 🌐 GitHub: [@DPHeshanRanasinghe](https://github.com/DPHeshanRanasinghe)  
-📧 Email: [your-email@example.com]  
-💼 LinkedIn: [Your LinkedIn Profile]
+📧 Email: [hranasinghe505@gmail.com]  
+💼 LinkedIn: [www.linkedin.com/in/heshan-ranasinghe-988b00290]
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** 
 
 ---
 
