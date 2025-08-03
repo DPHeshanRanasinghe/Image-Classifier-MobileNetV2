@@ -10,7 +10,7 @@ This project implements a **deep learning image classification model** using **M
 - ✅ **Smart Callbacks** (EarlyStopping, ReduceLROnPlateau)
 - ✅ **Comprehensive Evaluation** with confusion matrix and metrics
 - ✅ **Training Visualization** (loss/accuracy curves, confidence analysis)
-- ✅ **Model Persistence** with multiple save formats (.h5, SavedModel)
+- ✅ **Model Persistence** with h5 formats (.h5)
 - ✅ **Production-Ready** code structure following best practices
 
 ---
@@ -28,8 +28,6 @@ Image-Classifier-MobileNetV2/
 │
 ├── saved_models/
 │   ├── animal_classifier_model.h5         # Keras model (.h5)
-│   ├── animal_classifier_savedmodel/      # TensorFlow SavedModel
-│   └── animal_classifier_weights.h5       # Model weights only
 │
 ├── evaluation_results/
 │   ├── predictions.npy               # Model predictions
@@ -59,9 +57,9 @@ Image-Classifier-MobileNetV2/
 The dataset should be organized in the following folder structure:
 ```
 Animals/
-├── cats/       # 1000+ images of cats
-├── dogs/       # 1000+ images of dogs
-└── snakes/     # 1000+ images of snakes
+├── cats/       # 1000 images of cats
+├── dogs/       # 1000 images of dogs
+└── snakes/     # 1000 images of snakes
 ```
 
 **Dataset Statistics:**
@@ -156,13 +154,15 @@ Output [cats, dogs, snakes]
 ### 📊 Evaluation Metrics
 ```
 Classification Report:
-                precision    recall  f1-score   support
-    cats          0.96      0.94      0.95       200
-    dogs          0.97      0.98      0.97       200  
-    snakes        0.94      0.96      0.95       200
+              precision    recall  f1-score   support
 
-accuracy                              0.96       600
-macro avg         0.96      0.96      0.96       600
+        cats     0.9930    0.9500    0.9710       300
+        dogs     0.9553    0.9967    0.9755       300
+      snakes     0.9933    0.9933    0.9933       300
+
+    accuracy                         0.9800       900
+   macro avg     0.9805    0.9800    0.9800       900
+weighted avg     0.9805    0.9800    0.9800       900
 ```
 
 ### 🎨 Key Visualizations
