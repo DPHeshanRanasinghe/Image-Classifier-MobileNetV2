@@ -173,36 +173,6 @@ weighted avg     0.9805    0.9800    0.9800       900
 
 ---
 
-## 💾 Model Usage
-
-### Loading the Trained Model
-```python
-from tensorflow.keras.models import load_model
-import numpy as np
-from PIL import Image
-
-# Load the saved model
-model = load_model('saved_models/animal_classifier_model.h5')
-
-# Preprocess new image
-def preprocess_image(image_path):
-    img = Image.open(image_path).resize((224, 224))
-    img_array = np.array(img) / 255.0
-    img_array = np.expand_dims(img_array, axis=0)
-    return img_array
-
-# Make prediction
-image = preprocess_image('path/to/your/image.jpg')
-predictions = model.predict(image)
-class_idx = np.argmax(predictions)
-
-# Class mapping
-classes = ['cats', 'dogs', 'snakes']
-predicted_class = classes[class_idx]
-confidence = np.max(predictions)
-
-print(f"Predicted: {predicted_class} (Confidence: {confidence:.3f})")
-```
 
 ### Batch Prediction
 ```python
@@ -214,20 +184,6 @@ predictions = model.predict(batch)
 
 ---
 
-## 🔧 Advanced Features
-
-### Fine-tuning (Optional)
-```python
-# Unfreeze some top layers for fine-tuning
-base_model.trainable = True
-for layer in base_model.layers[:-20]:
-    layer.trainable = False
-
-# Recompile with lower learning rate
-model.compile(optimizer=Adam(1e-5), 
-             loss='categorical_crossentropy', 
-             metrics=['accuracy'])
-```
 
 ### Model Optimization
 - **Quantization**: Reduce model size for mobile deployment
