@@ -196,10 +196,6 @@ Snakes                  0       2     298
 4. Push to branch (`git push origin feature/enhancement`)
 5. Submit Pull Request
 
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
 ## References
 
 - [MobileNetV2 Paper](https://arxiv.org/abs/1801.04381)
@@ -214,13 +210,3 @@ Electronic and Telecommunication Engineering Undergraduate
 - GitHub: [@DPHeshanRanasinghe](https://github.com/DPHeshanRanasinghe)
 - LinkedIn: [Heshan Ranasinghe](https://www.linkedin.com/in/heshan-ranasinghe-988b00290)
 
-## Citation
-
-```bibtex
-@software{ranasinghe2024animalclassifier,
-  author = {Ranasinghe, Heshan},
-  title = {Animal Image Classifier with MobileNetV2 Transfer Learning},
-  year = {2025},
-  url = {https://github.com/DPHeshanRanasinghe/Image-Classifier-MobileNetV2}
-}
-```
