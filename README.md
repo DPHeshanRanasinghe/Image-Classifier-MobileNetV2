@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # Animal Image Classifier with MobileNetV2 Transfer Learning
 
 A deep learning image classification system implementing MobileNetV2 transfer learning to classify animal images across three categories: cats, dogs, and snakes, achieving 98% validation accuracy.
