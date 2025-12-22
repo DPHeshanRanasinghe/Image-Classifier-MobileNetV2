@@ -216,7 +216,7 @@ Electronic and Telecommunication Engineering Undergraduate
 @software{ranasinghe2024animalclassifier,
   author = {Ranasinghe, Heshan},
   title = {Animal Image Classifier with MobileNetV2 Transfer Learning},
-  year = {2024},
+  year = {2025},
   url = {https://github.com/DPHeshanRanasinghe/Image-Classifier-MobileNetV2}
 }
 ```
